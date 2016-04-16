@@ -16,7 +16,7 @@ public class Main
 		System.out.printf("\nInforme a altura (em metros):\n");
 		altura = ler.nextDouble();
 
-		double calculaImc = new IMC();
+		IMC calculaImc = new IMC();
 		imc = calculaImc.CalcularIMC(peso, altura);
 
 		System.out.printf("\n\nIMC = peso / (altura * altura)");
