@@ -17,7 +17,7 @@ public class Main
 		altura = ler.nextDouble();
 
 		double calculaImc = new IMC();
-		imc = calculaImc.CalcularIMC(peso, altura)
+		imc = calculaImc.CalcularIMC(peso, altura);
 
 		System.out.printf("\n\nIMC = peso / (altura * altura)");
 		System.out.printf("\n\nIMC calculado   Situacao");
